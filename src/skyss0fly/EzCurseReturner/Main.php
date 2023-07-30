@@ -5,8 +5,9 @@ namespace skyss0fly\EzCurseReturner;
 use pocketmine\event\Listener;
 use pocketmine\event\player\PlayerChatEvent;
 use pocketmine\utils\TextFormat;
+use pocktmime\plugin\PluginBase;
 
-class SwearDetector implements Listener {
+class Main extends PluginBase implements Listener {
     public function __construct(Main $plugin) {
         $this->plugin = $plugin;
     }
